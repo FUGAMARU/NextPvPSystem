@@ -1,0 +1,19 @@
+name: NextPvP-System
+main: NextPvPSystem\NextPvPSystem
+version: 1.0.0
+api: [1.10.0]
+load: POSTWORLD
+description: NextPvP-System
+commands:
+ join:
+  description: PvPに参加します
+ r:
+  description: 赤チームに参加します
+ b:
+  description: 青チームに参加します
+ l:
+  description: 座標を取得します
+ status:
+  description: ステータスを確認できます
+ logout:
+  description: サーバーからログアウトします
